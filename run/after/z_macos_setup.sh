@@ -8,12 +8,12 @@ dockutil --remove all --no-restart
 dockutil --add /System/Applications/Launchpad.app --no-restart
 dockutil --add /Applications/Firefox.app --no-restart
 dockutil --add '/Applications/ChatMate for WhatsApp.app' --no-restart
-dockutil --add '' --type spacer --section apps
+# dockutil --add '' --type spacer --section apps
 dockutil --add '/Applications/Canary Mail.app' --no-restart
 dockutil --add /System/Applications/Calendar.app --no-restart
 dockutil --add /System/Applications/Reminders.app --no-restart
 dockutil --add /System/Applications/Notes.app --no-restart
-dockutil --add '' --type spacer  --section apps
+# dockutil --add '' --type spacer  --section apps
 dockutil --add '/Applications/Visual Studio Code.app' --no-restart
 dockutil --add /Applications/iTerm.app --no-restart
 dockutil --add /Applications/Fork.app --no-restart
