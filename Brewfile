@@ -7,6 +7,7 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "calvinwalzel/tap"
 
+brew "dockutil"
 brew "mas"
 
 # Fix until 1Password 8 is out of beta
