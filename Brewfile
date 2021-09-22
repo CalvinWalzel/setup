@@ -19,6 +19,7 @@ cask "coconutbattery"
 cask "discord"
 cask "firefox"
 cask "fork"
+cask "iina"
 cask "iterm2"
 cask "teamspeak-client"
 cask "visual-studio-code"
@@ -30,3 +31,4 @@ mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft Word", id: 462054704
+mas "The Unarchiver", id: 425424353
