@@ -22,6 +22,8 @@ cask "firefox"
 cask "fork"
 cask "iina"
 cask "iterm2"
+# Fix until Postgres.app 2.5 is out of  beta
+cask "postgres-unofficial" unless exists?("/Applications/Postgres.app")
 cask "teamspeak-client"
 cask "visual-studio-code"
 
