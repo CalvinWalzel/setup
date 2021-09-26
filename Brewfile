@@ -11,6 +11,7 @@ brew "dockutil"
 brew "git"
 brew "mas"
 brew "volta"
+brew "rbenv"
 
 # Fix until 1Password 8 is out of beta
 cask "1password" unless exists?("/Applications/1Password.app")
