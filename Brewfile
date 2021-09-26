@@ -7,14 +7,9 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "calvinwalzel/tap"
 
-brew "asdf"
 brew "dockutil"
-brew "gawk" # Dependency of asdf-nodejs
 brew "git"
-brew "gpg" # Dependency of asdf-nodejs
 brew "mas"
-brew "openssl" # Dependency of asdf-ruby
-brew "readline" # Dependency of asdf-ruby
 
 # Fix until 1Password 8 is out of beta
 cask "1password" unless exists?("/Applications/1Password.app")

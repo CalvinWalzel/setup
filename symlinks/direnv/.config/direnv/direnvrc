@@ -1,4 +1,0 @@
-source "$(asdf direnv hook asdf)"   
-
-# Make direnv silent by default.
-# export DIRENV_LOG_FORMAT=""
