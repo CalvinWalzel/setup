@@ -6,12 +6,15 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "calvinwalzel/tap"
+tap "heroku/brew"
 
 brew "dockutil"
 brew "git"
+brew "heroku"
 brew "mas"
-brew "volta"
 brew "rbenv"
+brew "volta"
+
 brew "openssl" # recommended for ruby-build, which is used by rbenv
 brew "readline" # recommended for ruby-build, which is used by rbenv
 
