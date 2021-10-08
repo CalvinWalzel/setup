@@ -21,6 +21,8 @@ brew "readline" # recommended for ruby-build, which is used by rbenv
 # Fix until 1Password 8 is out of beta
 cask "1password" unless exists?("/Applications/1Password.app")
 cask "aldente"
+cask "anydesk"
+cask "barrier"
 cask "chatmate-for-whatsapp"
 cask "cleanmymac"
 cask "cleanshot"
