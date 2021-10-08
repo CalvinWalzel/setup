@@ -18,6 +18,8 @@ brew "volta"
 brew "openssl" # recommended for ruby-build, which is used by rbenv
 brew "readline" # recommended for ruby-build, which is used by rbenv
 
+brew "vips" # Tool for image manipulation, used in Rails apps
+
 # Fix until 1Password 8 is out of beta
 cask "1password" unless exists?("/Applications/1Password.app")
 cask "aldente"
