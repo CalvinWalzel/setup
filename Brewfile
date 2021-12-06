@@ -37,12 +37,12 @@ cask "iina"
 cask "iterm2"
 # Fix until Postgres.app 2.5 is out of  beta
 cask "postgres-unofficial" unless exists?("/Applications/Postgres.app")
+cask "rectangle"
 cask "teamspeak-client"
 cask "visual-studio-code"
 
 mas "Amphetamine", id: 937984704
 mas "Canary Mail App", id: 1236045954
-mas "Magnet", id: 441258766
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Remote Desktop", id: 1295203466
