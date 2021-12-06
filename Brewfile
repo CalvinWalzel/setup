@@ -14,6 +14,7 @@ brew "heroku"
 brew "mas"
 brew "rbenv"
 brew "volta"
+brew "redis"
 
 brew "openssl" # recommended for ruby-build, which is used by rbenv
 brew "readline" # recommended for ruby-build, which is used by rbenv
